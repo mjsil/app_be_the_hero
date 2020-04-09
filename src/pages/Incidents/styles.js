@@ -41,6 +41,11 @@ export default StyleSheet.create({
         marginTop: 32
     },
 
+    incidentHeader: {
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+
     incident: {
         padding: 24,
         borderRadius: 8,
@@ -48,8 +53,16 @@ export default StyleSheet.create({
         marginBottom: 16
     },
 
-    incidentProperty: {
+    incidentHeaderProperty: {
+        fontSize: 14,
+        color: '#41414d',
+        fontWeight: 'bold'
+    },
 
+    incidentProperty: {
+        fontSize: 14,
+        color: '#41414d',
+        fontWeight: 'bold'
     },
 
     incidentValue: {
