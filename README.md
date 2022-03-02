@@ -1,16 +1,85 @@
-<h2><a id="user-content-rocket-sobre-o-desafio" class="anchor" aria-hidden="true" href="#rocket-sobre-o-desafio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>APP - BeTheHero</h2>
-<p> O aplicativo BeTheHero tem como principal funcinalidade aproximar ONGs de animais em situação de rua da população, as mesmas podem utilizar o sistema WEB para cadastrar novos casos enquanto no APP a população pode manifestar o interesse em ajudar a ONG a custear tratamentos e/ou medicamentos a animais recolhidos, escolhendo E-mail ou Whatsapp como meio de comunicação.</p>
+<h3 align="center">
+   APP - BeTheHero
+</h3>
 
-<h3><a id="user-content-1-autenticação" class="anchor" aria-hidden="true" href="#1-autenticação"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>Compilando:</strong></h3> 
-<ul>  
-  <li><strong>1º) cd app_be_the_hero</strong></li> 
-  <li><strong>2º) npm install</strong></li>
-  <li><strong>3º) npm start</strong></li>
-</ul>
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-![01](https://user-images.githubusercontent.com/42494117/80292070-93b8eb80-8729-11ea-8a5e-ae9e52caca1f.jpg)
-![02](https://user-images.githubusercontent.com/42494117/80292073-97e50900-8729-11ea-8940-ee3728ab9d46.jpg)
-![03](https://user-images.githubusercontent.com/42494117/80292074-9a476300-8729-11ea-9de1-f6f1313d596f.jpg)
+<img alt="Layout" src="https://user-images.githubusercontent.com/42494117/156412252-d865cd10-3f32-479b-aee5-23aefe8c7f16.png">
 
-<hr>
-<p>Feito com ♥ by MJSIL <g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png"><img class="emoji" alt="wave" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png"></g-emoji></p>
+## 👨🏻‍💻 Projeto
+
+App para aproximar ONGs de animais em situação de rua da população.
+
+O aplicativo BeTheHero tem como principal funcinalidade aproximar ONGs de animais em situação de rua da população, as mesmas podem utilizar o sistema WEB para cadastrar novos casos enquanto no APP a população pode manifestar o interesse em ajudar a ONG a custear tratamentos e/ou medicamentos a animais recolhidos, escolhendo E-mail ou Whatsapp como meio de comunicação.
+
+## 🚀 Tecnologias
+
+Esta aplicação foi desenolvida com as seguintes tecnologias:
+
+- [Expo](https://docs.expo.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [Vector Icons](https://icons.expo.fyi/)
+- [MaskedView](https://www.npmjs.com/package/@react-native-community/masked-view)
+- [Axios](https://github.com/axios/axios)
+- [Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/docs/)
+- [Intl](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl)
+
+## 💻 Instalação, execução e desenvolvimento
+
+### Pré-requisitos
+
+- [Expo](https://docs.expo.dev/)
+
+**Faça um clone desse repositório e acesse o diretório**
+
+```bash
+git clone https://github.com/mjsil/app_be_the_hero.git
+```
+
+### Mobile
+
+```bash
+# Entre na pasta do projeto
+$ cd app_be_the_hero
+# Instale as dependências
+$ yarn install ou npm install
+# Tudo pronto para iniciar o app
+$ yarn start
+```
+
+## 🤔 Como contribuir
+
+- **Faça um fork deste repositório**
+
+```bash
+# Fork via GitHub official command line
+# Caso não tenha o GitHub CLI, realize o fork pelo site.
+$ gh repo fork mjsil/app_be_the_hero
+```
+
+```bash
+# Clone o seu fork
+$ git clone url-do-seu-fork && cd app_be_the_hero
+# Crie uma branch com sua feature
+$ git checkout -b minha-feature
+# Faça o commit das suas alterações
+$ git commit -m 'feat: Minha nova feature'
+# Faça o push para a sua branch
+$ git push origin minha-feature
+```
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Feito com 💜 by [MJSIL](https://www.linkedin.com/in/maur%C3%ADlio-j-silveira-4bb52b16a)
