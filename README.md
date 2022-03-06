@@ -10,7 +10,7 @@
   <a href="#-licença">Licença</a>
 </p>
 
-<img alt="Layout" src="https://user-images.githubusercontent.com/42494117/156928268-d5b1ed15-db33-4614-9e64-3d3d91876928.png">
+<img alt="Layout" src="https://user-images.githubusercontent.com/42494117/156928340-4a0155c3-d080-4cca-9c16-4b2acaeed42c.png">
 
 ## 👨🏻‍💻 Projeto
 
